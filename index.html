@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- start link css -->
+     <link rel="stylesheet" href="style.css">
+    <!-- end link css -->
+</head>
+<body>
+    
+    <section>
+            <input type="text" placeholder="0" id="display">
+        <div class="cotaner">
+
+            <div class="rows">
+              <button onclick="clearIput()">C</button>
+              <button onclick="delet_one()">Del</button>
+              <button value="." onclick="tast(value)">.</button>
+              <button value="/" onclick="tast(value)">/</button>
+            </div>
+            <div class="rows">
+              <button value="7"  onclick="tast(value)">7</button>
+              <button value="8"  onclick="tast(value)">8</button>
+              <button value="9"  onclick="tast(value)"> 9</button>
+              <button value="*" onclick="tast(value)">*</button>
+            </div>
+            <div class="rows">
+              <button value="4" onclick="tast(value)">4</button>
+              <button value="5" onclick="tast(value)">5</button>
+              <button value="6" onclick="tast(value)">6</button>
+              <button value="-" onclick="tast(value)">-</button>
+            </div>
+            <div class="rows">
+              <button value="1"  onclick="tast(value)">1</button>
+              <button value="2"  onclick="tast(value)">2</button>
+              <button value="3"  onclick="tast(value)">3</button>
+              <button value="+"  onclick="tast(value)">+</button>
+            </div>
+            <div class="rows">
+              <button value="00" onclick="tast(value)">00</button>
+              <button value="0" onclick="tast(value)">0</button>
+              <button onclick="plusing()">=</button>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
